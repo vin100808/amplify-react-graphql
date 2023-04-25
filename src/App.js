@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
 function App() {
+  const containerStyle = {
+    backgroundColor: '#ffffff',
+    borderRadius: '20px',
+    boxShadow: '0px 2px 10px #888888',
+    padding: '20px',
+    margin: '50px auto',
+    maxWidth: '600px',
+    textAlign: 'center',
+  };
+
+  const textStyle = {
+    fontSize: '48px',
+    marginBottom: '20px',
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={containerStyle}>
+      <h1 style={textStyle}>Hello, world!</h1>
+      <p>This is a sample React app with a rounded background.</p>
     </div>
   );
 }
