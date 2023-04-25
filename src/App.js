@@ -18,8 +18,8 @@ function App() {
 
   return (
     <div style={containerStyle}>
-      <h1 style={textStyle}>Hello, world!</h1>
-      <p>This is a sample React app with a rounded background.</p>
+      <h1 style={textStyle}>咩咩</h1>
+      <p>ily!</p>
     </div>
   );
 }
